@@ -1,4 +1,4 @@
-# Deep-Learning-Project-1
+# Deep-Learning-Project
 Lung Cancer Prediction Using Deep Learning
 
 ## Table of Contents
