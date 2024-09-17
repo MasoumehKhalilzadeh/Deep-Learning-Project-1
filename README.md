@@ -56,7 +56,6 @@ for cat in classes:
 
 ## Data Preprocessing
 
-**Label encoding** is to convert categorical labels into numerical values, and we use label encoding because most machine learning algorithms require numerical inputs. 
 
 **one hot encoding** which transforms categorical labels into a binary matrix where each class is represented by a unique column, and each row corresponds to a sample. 
 
