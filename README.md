@@ -77,7 +77,7 @@ one_hot_encoded_Y = pd.get_dummies(Y).values
 ```
 **Image resizing** has been performed by changing the size of the images to a uniform dimension of 224x224 pixels. This has been done by using the OpenCV library and the Numpy library in Python. This helps us to standardize the input dimension for the convolutional neural network (CNN) architecture.
 
-**The number of epochs** which is defined as the many times the entire dataset will be passed forward and backward through the neural network during training is considered as 5 epochs. The dataset is divided into batches during training, and each batch is processed by the neural network before updating the weights. This constant defines the number of samples in each batch. A smaller batch size often provides more frequent updates but might be computationally expensive. Here, the batch size is 5 in this study.  
+**The number of epochs** which is defined as the many times the entire dataset will be passed forward and backward through the neural network during training is considered as 5 epochs. The dataset is divided into batches during training, and each batch is processed by the neural network before updating the weights. This constant defines the number of samples in each batch. A smaller batch size often provides more frequent updates but might be computationally expensive. Here, the batch size is 16 in this study.  
 
 
 
